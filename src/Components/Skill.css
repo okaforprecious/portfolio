@@ -1,0 +1,39 @@
+.skills-section {
+padding: 80px 20px;
+background-color: #f9f9f9;
+text-align: center;
+}
+.skills-container {
+max-width: 800px;
+margin: 0 auto;
+}
+.skills-container h2 {
+font-size: 2.5rem;
+font-weight: 700;
+margin-bottom: 10px;
+color: #1a1a1a;
+}
+.skills-subtext {
+font-size: 1.1rem;
+margin-bottom: 30px;
+color: #555;
+}
+.skills-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+.skill-chip {
+    background-color: #4f46e5;
+color: white;
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 0.95rem;
+font-weight: 500;
+transition: transform 0.3s;
+}
+.skill-chip:hover {
+transform: scale(1.1);
+background-color: #4338ca;
+}

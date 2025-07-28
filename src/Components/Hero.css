@@ -1,0 +1,90 @@
+/* HERO SECTION STYLES */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #1a1a1a;
+  background-attachment: fixed;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 .highlight {
+  color: #4f46e5; /* Indigo-like */
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s, border 0.3s;
+}
+
+.btn.primary {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+}
+
+.btn.primary:hover {
+  background-color: #4338ca;
+}
+
+.btn.secondary {
+  border: 2px solid #ccc;
+  color: #333;
+  background: none;
+}
+
+.btn.secondary:hover {
+  background-color: #f4f4f4;
+}
+
+.scroll-cue {
+  font-size: 2rem;
+  color: #ccc;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* Responsive tweaks */
+@media (min-width: 600px) {
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+
+  }
+}
