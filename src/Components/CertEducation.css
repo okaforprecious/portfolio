@@ -1,0 +1,83 @@
+.cert-edu {
+padding: 60px 20px;
+background: #0a0a0a;
+color: white;
+}
+.section-title {
+text-align: center;
+font-size: 2.2rem;
+margin-bottom: 40px;
+color: #ff9800;
+}
+/* Certifications */
+.cert-section h3,
+.edu-section h3 {
+margin-bottom: 20px;
+font-size: 1.6rem;
+color: #ff9800;
+display: flex;
+align-items: center;
+gap: 10px
+}
+.cert-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+.cert-card {
+background: #1a1a1a;
+padding: 20px;
+border-radius: 10px;
+text-decoration: none;
+color: white;
+transition: all 0.3s ease;
+}
+.cert-card h4 {
+margin-bottom: 8px
+font-size: 1.2rem;
+}
+
+.cert-card p {
+margin: 0;
+font-size: 0.95rem;
+color: #bbb;
+}
+.cert-card span {
+display: inline-block;
+margin-top: 5px;
+font-size: 0.85rem;
+color: #ff9800;
+}
+/* Education Timeline */
+.edu-timeline {
+    margin-top: 20px;
+border-left: 3px solid #ff9800;
+padding-left: 25px;
+}
+.edu-item {
+margin-bottom: 20px;
+position: relative;
+}
+.edu-item::before {
+    content: "";
+position: absolute;
+left: -20px;
+top: 5px;
+width: 15px;
+height: 15px;
+background: #ff9800;
+border-radius: 50%;
+}
+.edu-content h4 {
+font-size: 1.2rem;
+margin-bottom: 5px;
+}
+.edu-content p {
+margin: 0;
+font-size: 0.95rem;
+color: #bbb;
+}
+.edu-content span {
+font-size: 0.85rem;
+color: #ff9800;
+}

@@ -1,0 +1,57 @@
+/* Section background with smooth gradient */
+.resume-section {
+background: #0a0a0a;
+padding: 80px 20px;
+display: flex;
+justify-content: center;
+}
+/* Card container */
+.resume-card {
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(6px);
+border-radius: 16px;
+padding: 40px;
+max-width: 600px;
+text-align: center;
+color: white;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.resume-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+/* Title */
+.resume-title {
+font-size: 2rem;
+margin-bottom: 12px;
+color: #ff9800;
+}
+/* Description */
+.resume-desc {
+font-size: 1rem;
+color: #e0e0e0;
+margin-bottom: 24px;
+line-height: 1.5;
+}
+/* Button */
+.resume-button {
+display: inline-flex;
+align-items: center;
+gap: 10px;
+padding: 14px 24px;
+background-color: #ff9800;
+color: #0f2027;
+font-weight: bold;
+border-radius: 8px;
+text-decoration: none;
+transition: background 0.3s ease, transform 0.2s ease;
+}
+.resume-button:hover {
+background-color: #ffb703;
+transform: translateY(-2px);
+}
+/* Icon */
+.resume-icon {
+font-size: 1.2rem;
+}
