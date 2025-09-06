@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import Project1 from '../assets/retouch_2025020214555919.jpg'
-import Project2 from '../assets/retouch_2025020214555919.jpg'
-import Project3 from '../assets/retouch_2025020214555919.jpg'
+import Project1 from '../assets/portfolio-pp.jpg'
+import Project2 from '../assets/love-nature-pp.jpg'
+import Project3 from '../assets/portfolio-pp.jpg'
 import './BestProject.css';
 const projects = [
 {
 title: "Portfolio Website",
 description: "Built with React, responsive, and animated.",
 image: Project1,
-link: "#"
+link: " http://localhost:5173/"
 },
 {
-title: "E-commerce App",
-description: "React + Firebase store with full cart and checkout.",
+title: "Love-nature website",
+description: "Built with html and css.",
 image:Project2,
-link: "#"
+link: "https://love-nature-asi.vercel.app/"
 },
 {
 title: "Blog Platform",

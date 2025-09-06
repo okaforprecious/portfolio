@@ -5,7 +5,7 @@ import { FaCertificate, FaGraduationCap } from "react-icons/fa";
 const certifications = [
 {
 title: "Full Stack Web Development",
-issuer: "freeCodeCamp",
+issuer: "Whoba Ogo Foundation",
 year: "2025",
 link: "#"
 },
